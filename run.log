@@ -1,0 +1,5 @@
+Starting Time.py
+https://reddwerks.zendesk.com/api/v2/incremental/ticket_events.json?per_page=100&start_time=1467028742&end_time=1468237982
+https://reddwerks.zendesk.com/api/v2/incremental/ticket_events.json?end_time=1468237982&per_page=100&start_time=1467392853
+https://reddwerks.zendesk.com/api/v2/incremental/ticket_events.json?end_time=1468237982&per_page=100&start_time=1468015307
+CSV Generated.
