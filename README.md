@@ -1,6 +1,13 @@
 # Zentime
 
+
 ### Easily export time from Zendesk to import to JIRA
+
+
+-  [Installation](https://github.com/cmtzco/zentime#installation "Installation")
+-  [Configuration](https://github.com/cmtzco/zentime#configuration "Configuration")
+-  [Usage](https://github.com/cmtzco/zentime#usage "Usage")
+
 
 ### Installation
 
