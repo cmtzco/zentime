@@ -15,6 +15,9 @@ Commands to run to install zentime requirements
 
     sudo ./install.sh
 
+[Back to top](https://github.com/cmtzco/zentime#zentime)
+
+
 ### Configuration
 
 In the config.py file you will see all the variables that need to be set in order for this 
@@ -64,9 +67,12 @@ be within single or double quotes.
 
     email_pass = "password"
 
+[Back to top](https://github.com/cmtzco/zentime#zentime)
+
+
 ### Usage
 
-#### Examples:
+##### Examples:
 
     python time.py 
     
@@ -77,3 +83,4 @@ or
 
     python time.py -n5 
 
+[Back to top](https://github.com/cmtzco/zentime#zentime)
