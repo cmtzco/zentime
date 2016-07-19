@@ -7,7 +7,7 @@
 -  [Installation](https://github.com/cmtzco/zentime#installation "Installation")
 -  [Configuration](https://github.com/cmtzco/zentime#configuration "Configuration")
 -  [Usage](https://github.com/cmtzco/zentime#usage "Usage")
-
+-  [Troubleshooting](https://github.com/cmtzco/zentime#troubleshooting "Troubleshooting")
 
 ### Installation
 
@@ -115,7 +115,7 @@ This was fixed by using the apt package manager in ubuntu:
     
     sudo apt-get install libssl-dev
 
-
+[Back to top](https://github.com/cmtzco/zentime#zentime)
 
 
 
