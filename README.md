@@ -84,3 +84,39 @@ or
     python time.py -n5 
 
 [Back to top](https://github.com/cmtzco/zentime#zentime)
+
+
+### Troubleshooting
+
+##### ffi.h: No such file or directory
+
+    c/_cffi_backend.c:15:17: fatal error: ffi.h: No such file or directory
+    #include <ffi.h>
+                    ^
+    compilation terminated.
+    error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+
+This was fixed by using the apt package manager in ubuntu:
+
+    sudo apt-get install libffi-dev
+
+I have not tested this in other distros yet.  
+
+##### openssl/opensslv.h: No such file or directory
+
+    build/temp.linux-x86_64-2.7/_openssl.c:423:30: fatal error: openssl/opensslv.h: No such file or directory
+    #include <openssl/opensslv.h>
+                                 ^
+    compilation terminated.
+    error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+
+
+This was fixed by using the apt package manager in ubuntu:
+    
+    sudo apt-get install libssl-dev
+
+
+
+
+
+
